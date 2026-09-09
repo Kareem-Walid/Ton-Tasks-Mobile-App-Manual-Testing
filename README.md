@@ -1,28 +1,28 @@
 # Ton Tasks Mobile App — Manual Testing
 
-توثيق كامل لعملية اختبار تطبيق **Ton Tasks Mobile App**، من قراءة الـ User Stories، لكتابة الـ Test Cases، لتنفيذها، لاكتشاف وتوثيق الـ Bugs.
+Full documentation of the manual testing process for **Ton Tasks Mobile App**, from reading the User Stories, to writing Test Cases, executing them, and discovering and reporting Bugs.
 
-## الأدوات المستخدمة
-- **Jira** لإدارة المشروع والـ Sprints والـ Bugs
-- **Zephyr Scale** لكتابة وتنفيذ الـ Test Cases وربطها بالـ User Stories
+## Tools Used
+- **Jira** for project, Sprint, and Bug management
+- **Zephyr Scale** for writing, executing, and tracing Test Cases against User Stories
 
-## محتوى المشروع
+## Project Structure
 
-| الفولدر | المحتوى |
+| Folder | Content |
 |---|---|
-| `User-Stories/` | مستند الـ User Stories الأصلي اللي بُنيت عليه الاختبارات |
-| `Test-Cases/` | كل الـ Test Cases (Zephyr export) |
-| `Bug-Reports/` | كل الـ Bugs المكتشفة أثناء التنفيذ |
-| `Screenshots/` | صور من Jira و Zephyr توضح التنظيم والتنفيذ الفعلي |
+| `User-Stories/` | The original User Stories document the test cases were built on |
+| `Test-Cases/` | All Test Cases (Zephyr export) |
+| `Bug-Reports/` | All Bugs discovered during execution |
+| `Screenshots/` | Screenshots from Jira and Zephyr showing the organization and actual execution |
 
-## ملخص العمل
-- تغطية كاملة لـ 4 Epics: Authentication, Account Settings, Task Management, Social & Collaboration
-- تنفيذ الاختبارات عبر 4 Sprints في Zephyr
-- اكتشاف وتوثيق **9 Bugs** مع خطوات إعادة الإنتاج (Steps to Reproduce) والنتيجة المتوقعة والفعلية لكل واحد
-- كل Test Case وكل Bug مرتبطين بالـ User Story الأصلية بتاعتهم (Traceability)
+## Summary
+- Full coverage of 4 Epics: Authentication, Account Settings, Task Management, Social & Collaboration
+- Test execution across 4 Sprints in Zephyr
+- Discovered and documented **9 Bugs**, each with clear Steps to Reproduce, Expected Result, and Actual Result
+- Every Test Case and Bug is linked back to its original User Story (Traceability)
 
-## مثال من الشغل
-راجع فولدر `Screenshots/` لمشاهدة:
-- تنظيم الـ Backlog والـ Bugs
-- تنفيذ Test Case خطوة بخطوة
-- الربط (Traceability) بين الـ Test Case والـ User Story والـ Bug
+## Sample Work
+See the `Screenshots/` folder for:
+- Backlog and Bug organization
+- Step-by-step Test Case execution
+- Traceability between Test Case, User Story, and Bug
